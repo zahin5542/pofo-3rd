@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding:0;
+    text-decoration: none;
+}
+
+body{
+   font-family: 'Ubuntu', sans-serif;
+}
+header{
+	background: url(../images/nav.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.container{
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+.logo{
+	width: 5%;
+	float: left;
+	padding: 5px;
+}
+.logo a img{
+	box-sizing: border-box;
+	max-width: 80%;
+	margin-left: 40px;
+}
+nav{
+    width: 50%;
+    float: right;
+    margin-top: 20px;
+}
+
+
+nav ul{
+	list-style: none;
+	margin-left: 225px;
+}
+nav ul li{
+	float: left;
+}
+
+nav ul li a{
+    padding: 17px;
+    font-size: 15px;
+    border-radius: 50px;
+    color: black;
+    background: #bab8ba;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+section{
+	margin: 0;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+.Red{
+	background: url(../images/3.jpg);
+	background-attachment: fixed;
+}
+.yellow{
+	background: url(../images/b.jpg);
+	background-attachment: fixed;
+}
+.green{
+	background: url(../images/c.jpg);
+	background-attachment: fixed;
+}
+.pink{
+	background: url(../images/d.jpg);
+	background-attachment: fixed;
+}
+.blue{
+	background: url(../images/e.jpg);
+	background-attachment: fixed;
+}
+
+
+.box{
+	width: 100%;
+}
+
+
+.conleft{
+	width: 40%;
+	float: left;
+	margin-top: 60vh;
+}
+h2{
+    margin-left: 200px;
+    font-size: 25px;
+    background: #a5ced3;
+    padding: 20px;
+    border-radius: 25px;
+}
+.conleft a{
+    margin-left: 200px;
+    margin-top: 15px;
+    font-size: 25px;
+    display: inline-block;
+    background: #a71515;
+    padding: 20px;
+    border-radius: 25px;
+    color: white;
+}
+
+
+
+.conRight{
+	width: 60%;
+	float: right;
+	position: relative;
+}
+.banner{
+	
+position: absolute;
+	
+margin-left: 200px;
+}
+
+.banner img{
+	position: absolute;
+}
+h3{
+    margin-top: 22vh;
+    position: absolute;
+    margin-left: 180px;
+}
+.conRight p{
+    padding: 50px 220px;
+    box-sizing: border-box;
+}
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  
+}
+
+/* Medium devices(sm) (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  
+}
+
+/* Large devices(md) (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
